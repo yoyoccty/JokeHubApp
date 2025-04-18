@@ -11,7 +11,7 @@ class JokeViewModel: ObservableObject {
         if searchText.isEmpty {
             return jokes
         } else {
-            return jokes.filter { $0.setup.lowercased().contains(searchText.lowercased()) }
+            return jokes.filter { $0.setup.lowercased().contains(searchText.lowercased()) } //test
         }
     }
 
