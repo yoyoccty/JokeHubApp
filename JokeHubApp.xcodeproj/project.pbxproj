@@ -35,16 +35,6 @@
 			path = JokeHubApp;
 			sourceTree = "<group>";
 		};
-		793036FB2DB233C0006EFF5E /* JokeHubAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = JokeHubAppTests;
-			sourceTree = "<group>";
-		};
-		793037052DB233C0006EFF5E /* JokeHubAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = JokeHubAppUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				793036EB2DB233BC006EFF5E /* JokeHubApp */,
-				793036FB2DB233C0006EFF5E /* JokeHubAppTests */,
-				793037052DB233C0006EFF5E /* JokeHubAppUITests */,
 				793036EA2DB233BC006EFF5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				793036FA2DB233C0006EFF5E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				793036FB2DB233C0006EFF5E /* JokeHubAppTests */,
-			);
 			name = JokeHubAppTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				793037042DB233C0006EFF5E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				793037052DB233C0006EFF5E /* JokeHubAppUITests */,
 			);
 			name = JokeHubAppUITests;
 			packageProductDependencies = (
